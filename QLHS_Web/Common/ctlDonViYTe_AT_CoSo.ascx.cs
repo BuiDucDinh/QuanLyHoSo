@@ -1,0 +1,156 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Ext.Net;
+using QLHS_Logic;
+using System.Data;
+
+public partial class Common_ctlDonViYTe_AT_CoSo : System.Web.UI.UserControl
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["G_Ma_Loai_Hinh"] == null)
+        {
+            X.Msg.Show(new MessageBoxConfig
+            {
+                Title = "Thông báo",
+                Message = "Đã hết phiên làm việc,vui lòng đăng nhập lại !!!",
+                Buttons = MessageBox.Button.OK,
+                Icon = (MessageBox.Icon)Enum.Parse(typeof(MessageBox.Icon), "ERROR"),
+                Closable = false,
+                Handler = "var parent = window.parent;parent.location = '~/DHM/login.aspx';"
+            });
+            return;
+        }
+        else
+        {
+
+            if (!this.IsPostBack)
+            {
+                cboLoaiHinhChon.Value = Sys_Common.G_LOAI_HINH_DU_PHONG;
+                cboLoaiHinhChon.Visible = false;
+                switch (Session["G_Ma_Loai_Hinh"].ToString())
+                {
+                    case "1":
+                        dsMaHuyenChon.DataSource = Sys_Common.HT_DM_HUYEN.Lay_Boi_HT_DM_Tinh(Sys_Common.G_MA_TINH);
+                        dsMaHuyenChon.DataBind();
+
+                        if (cboLoaiHinhChon.Value.ToString() == Sys_Common.G_LOAI_HINH_KHAM_CHUA_BENH.ToString())
+                        {
+                            DataTable myData = Sys_Common.RunTableBySQL("SELECT * FROM HT_Don_Vi_YT WHERE Loai_Hinh IN (4,5,7) AND AT=1 or (Loai_Hinh = 6 and Thanh_Phan = 1) ");
+                            if (myData != null)
+                            {
+                                dsDonViKhacChon.DataSource = myData;
+                                dsDonViKhacChon.DataBind();
+                            }
+                        }
+                        else
+                        {
+                            cboDonViKhacChon.Hidden = true;
+                        }
+                        break;
+                    case "7":
+                        dsMaHuyenChon.DataSource = Sys_Common.HT_DM_HUYEN.Lay_Boi_HT_DM_Tinh(Sys_Common.G_MA_TINH);
+                        dsMaHuyenChon.DataBind();
+
+                        if (cboLoaiHinhChon.Value.ToString() == Sys_Common.G_LOAI_HINH_KHAM_CHUA_BENH.ToString())
+                        {
+                            DataTable myData = Sys_Common.RunTableBySQL("SELECT * FROM HT_Don_Vi_YT WHERE Loai_Hinh IN (4,5,7) AND AT=1 or (Loai_Hinh = 6 and Thanh_Phan = 1) ");
+                            if (myData != null)
+                            {
+                                dsDonViKhacChon.DataSource = myData;
+                                dsDonViKhacChon.DataBind();
+                            }
+                        }
+                        else
+                        {
+                            cboDonViKhacChon.Hidden = true;
+                        }
+                        break;
+                    case "2":
+                        HT_Don_Vi_YT_Chi_Tiet myDonViChiTiet = Sys_Common.HT_DON_VI_YT.Lay(int.Parse(Session["G_Ma_Don_Vi"].ToString()));
+                        dsMaHuyenChon.DataSource = Sys_Common.HT_DM_HUYEN.Lay_Boi_HT_DM_Tinh(Sys_Common.G_MA_TINH);
+                        dsMaHuyenChon.DataBind();
+                        cboMaHuyenChon.Value = myDonViChiTiet.Ma_Huyen;
+                        cboMaHuyenChon_Selected(null, null);
+                        cboMaHuyenChon.Hidden = true;
+                        cboDonViKhacChon.Hidden = true;
+                        break;
+                    default:
+                        pnlDonViChon.Hidden = true;
+                        cboDonViKhacChon.Hidden = false;
+                        cboLoaiHinhChon.Value = Sys_Common.G_LOAI_HINH_KHAM_CHUA_BENH.ToString();
+                        break;
+
+                }
+            }
+
+        }
+    }
+    protected void cboLoaiHinhChon_Selected(object sender, DirectEventArgs e)
+    {
+        if (cboLoaiHinhChon.Value.ToString() == Sys_Common.G_LOAI_HINH_KHAM_CHUA_BENH.ToString())
+        {
+            DataTable myData = Sys_Common.RunTableBySQL("SELECT * FROM HT_Don_Vi_YT WHERE Loai_Hinh IN (4,5,7) AND AT=1 or (Loai_Hinh = 6 and Thanh_Phan = 1) ");
+            if (myData != null)
+            {
+                dsDonViKhacChon.DataSource = myData;
+                dsDonViKhacChon.DataBind();
+            }
+            cboDonViKhacChon.Hidden = false;
+            cboMaHuyenChon.Hidden = true;
+            cboDonViChon.Hidden = true;
+        }
+        else
+        {
+            cboDonViKhacChon.Hidden = true;
+            if (Session["G_Ma_Loai_Hinh"].ToString() == "1")
+            {
+                cboMaHuyenChon.Hidden = false;
+            }
+            else
+            {
+                cboMaHuyenChon.Hidden = true;
+            }
+            cboDonViChon.Hidden = false;
+        }
+    }
+    protected void cboMaHuyenChon_Selected(object sender, DirectEventArgs e)
+    {
+        cboDonViChon.GetStore().RemoveAll();
+        cboDonViChon.SelectedItem.Value = "";
+        DataTable myTable = Sys_Common.RunTableBySQL("SELECT Ma_Xa,Ten_Xa FROM HT_DM_Xa WHERE Ma_Huyen='" + cboMaHuyenChon.Value.ToString() + "' ");
+        if (myTable != null)
+        {
+            dsDonViChon.DataSource = myTable;
+            dsDonViChon.DataBind();
+        }
+        else
+        {
+            cboDonViChon.GetStore().RemoveAll();
+            cboDonViChon.SelectedItem.Value = "";
+
+        }
+    }
+    public string Ma_Huyen
+    {
+        get { return cboMaHuyenChon.Value == null ? "" : cboMaHuyenChon.Value.ToString(); }
+
+    }
+    public string Ma_Don_Vi
+    {
+        get { return cboDonViChon.Value == null ? "" : cboDonViChon.Value.ToString(); }
+
+    }
+    public string Ma_Don_Vi_Khac
+    {
+        get { return cboDonViKhacChon.Value == null ? "" : cboDonViKhacChon.Value.ToString(); }
+    }
+    public string Loai_Hinh
+    {
+        get { return cboLoaiHinhChon.Value == null ? "" : cboLoaiHinhChon.Value.ToString(); }
+    }
+}

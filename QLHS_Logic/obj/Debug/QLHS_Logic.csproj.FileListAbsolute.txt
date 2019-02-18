@@ -1,0 +1,6 @@
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\bin\Debug\QLHS_Logic.dll
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\bin\Debug\QLHS_Logic.pdb
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Debug\QLHS_Logic.dll
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Debug\QLHS_Logic.pdb
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Debug\QLHS_Logic.csprojAssemblyReference.cache
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Debug\QLHS_Logic.csproj.CoreCompileInputs.cache

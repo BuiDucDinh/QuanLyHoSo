@@ -1,0 +1,18 @@
+﻿.x-tree-node .x-tree-selected {
+    background-color: #7fb1f2 !important;
+}
+
+.left {
+    float: left;
+}
+
+.margin10 {
+    margin: 10px;
+    width: 90% !important;
+}
+/*.css1 .x-layout-split {
+    background-color: #fff !important;
+}*/
+iframe {
+    width: 100%;
+}

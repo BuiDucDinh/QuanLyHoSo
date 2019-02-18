@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeNews>
+  <type key="0" value="Tất cả" name="Tất cả"/>
+  <type key="1" value="Logo" name="Logo "/>
+  <type key="2" value="Banner (1020 X 136)" name="Banner (1020 X 136)"/>
+  <type key="3" value="Quảng cáo danh mục trang chủ" name="Quảng cáo danh mục trang chủ"/>
+  <type key="4" value="Liên kết trang" name="Liên kết trang"/>
+  <type key="5" value="Quảng cáo bên phải" name="Quảng cáo bên phải"/>
+  <type key="6" value="Slider" name="Slider"/>
+  <type key="8" value="Video quảng cáo" name="Video quảng cáo"/>
+  <type key="7" value="Footer" name="Footer"/>
+</TypeNews>

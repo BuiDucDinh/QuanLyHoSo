@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*********************************************** Reset Style ***********************************************/
+*{margin:0; padding:0;}
+body, html, div, blockquote, img, label, p,
+h1, h2, h3, h4, h5, h6, pre, ul,  ol, li, dl, dt,
+dd, form, select, a, fieldset, input, th, td {
+    margin:0; padding:0; border:0; outline:none;
+}
+ol, ul {list-style:none;}
+a {text-decoration:none;}
+a, img {border:none;}
+img {vertical-align:center;}
+fieldset {border: none;}
+.clear {clear:both;}
+.floatleft {float:left;}
+.floatright {float:right;}
+.aligncenter {text-align:center;}
+
+a:hover {color:#C00;}
+body{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#0061a7;   
+}

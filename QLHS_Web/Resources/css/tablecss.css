@@ -1,0 +1,87 @@
+﻿
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-style: solid;	
+	border-color: #666666;
+	background-color: #ffffff;
+	
+}
+
+table.gridtablenotborder {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+}
+table.gridtablenotborder th {
+	border-width: 0px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtablenotborder td {
+	border-width: 0px;
+	padding: 4px;
+	border-style: solid;	
+	border-color: #666666;
+	background-color: #ffffff;
+	
+}
+
+table.body
+{
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	padding:6px;	
+}
+
+
+
+table.gridtable18 {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+}
+
+table.gridtable18 th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+table.gridtable18 td {
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;	
+	border-color: #666666;
+	background-color: #ffffff;
+	
+}

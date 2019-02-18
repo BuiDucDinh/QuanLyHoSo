@@ -1,0 +1,4 @@
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\bin\Release\QLHS_Logic.dll
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\bin\Release\QLHS_Logic.pdb
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Release\QLHS_Logic.dll
+D:\StdVietNam\Solutions\QuanLyHoSo\QLHS_Logic\obj\Release\QLHS_Logic.pdb

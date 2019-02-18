@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F428EE0E-8628-4E07-8E43-5F98AB78737E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLHS_Logic</RootNamespace>
+    <AssemblyName>QLHS_Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAOCAO.cs" />
+    <Compile Include="NV\Address.cs" />
+    <Compile Include="NV\AnPham.cs" />
+    <Compile Include="NV\BaiViet_AnPham.cs" />
+    <Compile Include="NV\LoaiBaoTang.cs" />
+    <Compile Include="NV\KiemKeSoLuong.cs" />
+    <Compile Include="NV\Log.cs" />
+    <Compile Include="NV\ThoiKy.cs" />
+    <Compile Include="NV\NoiLuuTru.cs" />
+    <Compile Include="NV\HoiDongThamDinh.cs" />
+    <Compile Include="NV\DiVatCoVat.cs" />
+    <Compile Include="NV\DanhHieuNgheNhan.cs" />
+    <Compile Include="NV\ChucNangTuBo.cs" />
+    <Compile Include="NV\NgheNhan.cs" />
+    <Compile Include="NV\NhaDauTu.cs" />
+    <Compile Include="NV\PhanBoKinhPhi.cs" />
+    <Compile Include="NV\NguonKinhPhi.cs" />
+    <Compile Include="NV\DM_LoaiNguonKinhPhi.cs" />
+    <Compile Include="NV\DanhNhan.cs" />
+    <Compile Include="NV\CanBo.cs" />
+    <Compile Include="NV\DanhMucAnPham.cs" />
+    <Compile Include="NV\DanhMucDuong.cs" />
+    <Compile Include="NV\LuongXuLy.cs" />
+    <Compile Include="NV\TrangThaiXuLy.cs" />
+    <Compile Include="NV\LoaiQuyTrinh.cs" />
+    <Compile Include="NV\LuongDinhNghia.cs" />
+    <Compile Include="NV\QuyTrinhXuLy.cs" />
+    <Compile Include="NV\QuyTrinhDinhNghia.cs" />
+    <Compile Include="NV\DM_LoaiVanBan.cs" />
+    <Compile Include="NV\PositionMap.cs" />
+    <Compile Include="NV\Map.cs" />
+    <Compile Include="NV\DonViKinhDoanh.cs" />
+    <Compile Include="NV\DM_LinhVucKinhDoanh.cs" />
+    <Compile Include="NV\DM_DiSan.cs" />
+    <Compile Include="NV\MakerMap.cs" />
+    <Compile Include="NV\Quangcao.cs" />
+    <Compile Include="NV\Vitri.cs" />
+    <Compile Include="NV\ChucNang.cs" />
+    <Compile Include="NV\CoQuanHanhChinh.cs" />
+    <Compile Include="NV\DangKyDiSan.cs" />
+    <Compile Include="NV\DanhMucMedia.cs" />
+    <Compile Include="NV\DiaDanh.cs" />
+    <Compile Include="NV\DiSanVanHoa.cs" />
+    <Compile Include="NV\DM_CapDiSan.cs" />
+    <Compile Include="NV\DM_ChucVu.cs" />
+    <Compile Include="NV\DM_LoaiDiSan.cs" />
+    <Compile Include="HHC\DM_HinhThucKhenThuong.cs" />
+    <Compile Include="HT\HT_Chuc_Nang.cs" />
+    <Compile Include="HT\HT_Dan_Toc.cs" />
+    <Compile Include="HT\HT_DM_Huyen.cs" />
+    <Compile Include="HT\HT_DM_Tinh.cs" />
+    <Compile Include="HT\HT_DM_Tuan.cs" />
+    <Compile Include="HT\HT_DM_Xa.cs" />
+    <Compile Include="HT\HT_Don_Vi_YT.cs" />
+    <Compile Include="HT\HT_Du_An.cs" />
+    <Compile Include="HT\HT_Ma_Nhom_Nguoi_Dung_Vai_Tro.cs" />
+    <Compile Include="HT\HT_Ma_Nuoc.cs" />
+    <Compile Include="HT\HT_Nguoi_Dung.cs" />
+    <Compile Include="HT\HT_Nguoi_Dung_Dang_Nhap.cs" />
+    <Compile Include="HT\HT_Nguoi_Dung_Don_Vi.cs" />
+    <Compile Include="HT\HT_Nguoi_Dung_Vai_Tro.cs" />
+    <Compile Include="HT\HT_Nhom_Chuc_Nang.cs" />
+    <Compile Include="HT\HT_Nhom_Nguoi_Dung.cs" />
+    <Compile Include="HT\HT_Nhom_Nguoi_Dung_Nguoi_Dung.cs" />
+    <Compile Include="HT\HT_Vai_Tro.cs" />
+    <Compile Include="HT\HT_Vai_Tro_Chuc_Nang.cs" />
+    <Compile Include="HT\HT_Vai_Tro_Du_An.cs" />
+    <Compile Include="NL\NL_Bao_Cao.cs" />
+    <Compile Include="NL\NL_Bao_Hiem.cs" />
+    <Compile Include="NL\NL_Cong_Tac_Nuoc_Ngoai.cs" />
+    <Compile Include="NL\NL_Dang_Doan.cs" />
+    <Compile Include="NL\NL_Dieu_Chuyen.cs" />
+    <Compile Include="NL\NL_DM_Bien_Che.cs" />
+    <Compile Include="NL\NL_DM_Chinh_Tri.cs" />
+    <Compile Include="NL\NL_DM_Chuc_Danh.cs" />
+    <Compile Include="NL\NL_DM_Chuc_Vu.cs" />
+    <Compile Include="NL\NL_DM_Chuyen_Mon.cs" />
+    <Compile Include="NL\NL_DM_Dao_Tao.cs" />
+    <Compile Include="NL\NL_DM_Hinh_Thuc_KhenThuong.cs" />
+    <Compile Include="NL\NL_DM_Hoc_Van.cs" />
+    <Compile Include="NL\NL_DM_Hop_Dong.cs" />
+    <Compile Include="NL\NL_DM_Linh_Vuc.cs" />
+    <Compile Include="NL\NL_DM_Loai_Quan_He.cs" />
+    <Compile Include="NL\NL_DM_Ma_Ten_Van_Bang.cs" />
+    <Compile Include="NL\NL_DM_Ngach.cs" />
+    <Compile Include="NL\NL_DM_Ngach_Bac_He_So.cs" />
+    <Compile Include="NL\NL_DM_Ngoai_Ngu.cs" />
+    <Compile Include="NL\NL_DM_Phong_Ban.cs" />
+    <Compile Include="NL\NL_DM_QL_Nha_Nuoc.cs" />
+    <Compile Include="NL\NL_DM_Tin_Hoc.cs" />
+    <Compile Include="NL\NL_Khen_Thuong_Don_Vi.cs" />
+    <Compile Include="NL\NL_Khen_Thuong_Ky_Luat.cs" />
+    <Compile Include="NL\NL_Khen_Thuong_Phong.cs" />
+    <Compile Include="NL\NL_Lich_Su_Ban_Than.cs" />
+    <Compile Include="NL\NL_Luong.cs" />
+    <Compile Include="NL\NL_Nhan_Vien.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Biet_Phai.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chinh_Tri.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chuc_Danh.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chuc_Vu.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chuc_Vu_Dang.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chuc_Vu_KiemNghiem.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Chuyen_Mon.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Hop_Dong.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Linh_Vuc.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Nghi_Viec.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Nghi_Viec_CD.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Ngoai_Ngu.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_QL_Nha_Nuoc.cs" />
+    <Compile Include="NL\NL_Nhan_Vien_Tin_Hoc.cs" />
+    <Compile Include="NL\NL_Nhan_Xet.cs" />
+    <Compile Include="NL\NL_Phu_Cap.cs" />
+    <Compile Include="NL\NL_Quan_He_Gia_Dinh.cs" />
+    <Compile Include="NL\NL_Qua_Trinh_Cong_Tac.cs" />
+    <Compile Include="NL\NL_Qua_Trinh_Hoc_Tap.cs" />
+    <Compile Include="NL\NL_To_Nhom.cs" />
+    <Compile Include="NV\Documnet.cs" />
+    <Compile Include="NV\DonViTuBo.cs" />
+    <Compile Include="NV\HoatDongVanHoa.cs" />
+    <Compile Include="NV\Image.cs" />
+    <Compile Include="NV\KeHoachTuBo.cs" />
+    <Compile Include="NV\MediaLib.cs" />
+    <Compile Include="NV\Menu.cs" />
+    <Compile Include="NV\VanBan.cs" />
+    <Compile Include="NV\Video.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sys_Common.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\QLHS_Logic.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\QLHS_Logic.dll" />
+    <Content Include="obj\Debug\QLHS_Logic.pdb" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Site.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\" />
+    <Folder Include="obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

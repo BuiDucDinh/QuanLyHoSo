@@ -1,0 +1,42 @@
+﻿#ext-gen48 table tr td:first {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+#ext-gen48 table{
+    margin:20px;
+}
+#ext-gen48 table td {
+    font-weight: normal;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+    #ext-gen48 table td b {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+#plnTemplate p {
+    margin: 10px;
+    text-align: center;
+}
+#plnTemplate table p{
+    margin:5px;
+}
+.apartTitle{
+    float:left;
+    width:25%;
+    text-align:justify;
+    padding: 10px 40px;
+}
+.apartTitle p {
+    text-align:left !important;
+    width:100%;  
+    margin:0 !important;
+}
+.titlefisrt{
+    padding-right:20px;
+}
+.titleCenter{
+    text-align:center !important;
+}

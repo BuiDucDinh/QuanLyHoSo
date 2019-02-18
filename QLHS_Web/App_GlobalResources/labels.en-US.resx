@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sqlDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="videolienquan" xml:space="preserve">
+    <value>Related videos</value>
+  </data>
+  <data name="account" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="anphamtailieu" xml:space="preserve">
+    <value>Publications materials</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="danhmucdisan" xml:space="preserve">
+    <value>Heritage List</value>
+  </data>
+  <data name="detainghiencuu" xml:space="preserve">
+    <value>Research theme</value>
+  </data>
+  <data name="dsthuvienanhlienquan" xml:space="preserve">
+    <value>List of related photo galleries</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>&lt;h2&gt;Copyright of Thanh Hoa Cultural Heritage &lt;/h2&gt;
+                        &lt;p class="info-footer"&gt;
+                            Address: 101 Nguyen Trai street-  Ba Đinh District -Thanh Hoa City
+                    &lt;br /&gt;
+                            Website : disanvanhoathanhhoa.gov.com * Tel : (034) 6234 345 * Fax: 08.7300.4555 * Email : Disanvanhoa@gmail.com
+                        &lt;/p&gt;</value>
+  </data>
+  <data name="fullscreen" xml:space="preserve">
+    <value>Full screen</value>
+  </data>
+  <data name="header" xml:space="preserve">
+    <value>QUẢN LÝ DI SẢN VĂN HÓA THANH HÓA
+                            &lt;p&gt;Management of Cultural Heritage&lt;/p&gt;</value>
+  </data>
+  <data name="hoatdongnoibat" xml:space="preserve">
+    <value>Featured activities</value>
+  </data>
+  <data name="kyyeuhoinghi" xml:space="preserve">
+    <value> Conference summary record </value>
+  </data>
+  <data name="Lienket" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="ngaychungnhan" xml:space="preserve">
+    <value>Certification date</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="sachbaoxuatban" xml:space="preserve">
+    <value>Books published</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="tailieuhoctap" xml:space="preserve">
+    <value>Reference materials</value>
+  </data>
+  <data name="tapchidisan" xml:space="preserve">
+    <value>Cultural heritage magazine</value>
+  </data>
+  <data name="thumuctailieu" xml:space="preserve">
+    <value>Document folder</value>
+  </data>
+  <data name="videoclip" xml:space="preserve">
+    <value>Video clip</value>
+  </data>
+  <data name="albumanh" xml:space="preserve">
+    <value>Images album</value>
+  </data>
+  <data name="anphamlienquan" xml:space="preserve">
+    <value>Related publications</value>
+  </data>
+  <data name="baotang" xml:space="preserve">
+    <value>Museum</value>
+  </data>
+  <data name="baovat" xml:space="preserve">
+    <value>Precious object</value>
+  </data>
+  <data name="bodieukien" xml:space="preserve">
+    <value>To give up condition</value>
+  </data>
+  <data name="cachthuc" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="capdisan" xml:space="preserve">
+    <value>The level of heritage </value>
+  </data>
+  <data name="chondivat" xml:space="preserve">
+    <value>-- Select relics --</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="coquanthuchien" xml:space="preserve">
+    <value>Implementing agencies</value>
+  </data>
+  <data name="coquanthutuc" xml:space="preserve">
+    <value>Agencies implementing administrative procedures</value>
+  </data>
+  <data name="covat" xml:space="preserve">
+    <value>Antiques</value>
+  </data>
+  <data name="danhhieu" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="danhnhankhac" xml:space="preserve">
+    <value>Other celebrities</value>
+  </data>
+  <data name="danhsachnghenhan" xml:space="preserve">
+    <value>List of artisans</value>
+  </data>
+  <data name="dantoc" xml:space="preserve">
+    <value>Nation</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="diachi" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="diadiem" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="divat" xml:space="preserve">
+    <value>Relic</value>
+  </data>
+  <data name="divatcovat" xml:space="preserve">
+    <value>Relic, antiques and national treasures</value>
+  </data>
+  <data name="divatcuadisan" xml:space="preserve">
+    <value>Relics of the heritage</value>
+  </data>
+  <data name="divatlienquan" xml:space="preserve">
+    <value>Related relics</value>
+  </data>
+  <data name="doituongthutuc" xml:space="preserve">
+    <value>Objects to carry out dministrative procedures</value>
+  </data>
+  <data name="donvitochuc" xml:space="preserve">
+    <value>organizational units</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Dowload</value>
+  </data>
+  <data name="dsvh" xml:space="preserve">
+    <value>Cultural Heritage</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="gioithieu" xml:space="preserve">
+    <value>Introduce</value>
+  </data>
+  <data name="hinhanh" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="hoatdongvanhoa" xml:space="preserve">
+    <value>Cultural Activities</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home page</value>
+  </data>
+  <data name="ketquathutuc" xml:space="preserve">
+    <value>Results of implementation of administrative procedures</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>key word </value>
+  </data>
+  <data name="khudisan" xml:space="preserve">
+    <value>Heritage region</value>
+  </data>
+  <data name="lephi" xml:space="preserve">
+    <value>Fee</value>
+  </data>
+  <data name="loaidisan" xml:space="preserve">
+    <value>Type of Heritage </value>
+  </data>
+  <data name="loaiditich" xml:space="preserve">
+    <value>Type of relics</value>
+  </data>
+  <data name="loaids" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="maudon" xml:space="preserve">
+    <value>Form(If yes and please attach)</value>
+  </data>
+  <data name="ngaykhaimac" xml:space="preserve">
+    <value>Opening day</value>
+  </data>
+  <data name="ngaynhandh" xml:space="preserve">
+    <value>The date of receipt of the title</value>
+  </data>
+  <data name="ngaysinh" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="noiluutru" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="otheralbum" xml:space="preserve">
+    <value>Other album</value>
+  </data>
+  <data name="phaplythutuc" xml:space="preserve">
+    <value>Legal basis of administrative procedures</value>
+  </data>
+  <data name="searchdsvh" xml:space="preserve">
+    <value>search for cultural heritage</value>
+  </data>
+  <data name="soquuyetdinh" xml:space="preserve">
+    <value>Decision number</value>
+  </data>
+  <data name="stt" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="tendisan" xml:space="preserve">
+    <value>Heritage name</value>
+  </data>
+  <data name="tendivat" xml:space="preserve">
+    <value>Relic name</value>
+  </data>
+  <data name="tennghenhan" xml:space="preserve">
+    <value>Artist name</value>
+  </data>
+  <data name="tenthutuc" xml:space="preserve">
+    <value>Procedure name</value>
+  </data>
+  <data name="thanhphanhoso" xml:space="preserve">
+    <value>Composition, number of records</value>
+  </data>
+  <data name="thoigiandienra" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="thoihangiaiquyet" xml:space="preserve">
+    <value>Term of settlement</value>
+  </data>
+  <data name="tintuclienquan" xml:space="preserve">
+    <value>Related news</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="trinhtu" xml:space="preserve">
+    <value>The order of execution</value>
+  </data>
+  <data name="vitridialy" xml:space="preserve">
+    <value>Geographical location</value>
+  </data>
+  <data name="xemtatca" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="yeucauthuchienthutuc" xml:space="preserve">
+    <value>Requirements to cary out procedures</value>
+  </data>
+  <data name="friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="thurday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="choncapds" xml:space="preserve">
+    <value>--The level of heritage--</value>
+  </data>
+  <data name="chonloaids" xml:space="preserve">
+    <value>--Type of Heritage--</value>
+  </data>
+</root>

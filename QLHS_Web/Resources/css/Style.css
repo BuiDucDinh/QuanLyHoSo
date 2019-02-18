@@ -1,0 +1,69 @@
+﻿.hidden {
+    display: none;
+}
+
+#Image_btnUpload_Container {
+    float: left;
+}
+
+#ImageManager {
+    height: 90px;
+}
+
+    #ImageManager #Video_btnUpload_Container {
+        height: 100%;
+    }
+
+    #ImageManager img {
+        width: 100%;
+        height: 100%;
+        max-height: 86px;
+        max-width: 115px;
+    }
+
+    #ImageManager article img {
+        max-width: 88px;
+    }
+
+#Image_btnUpload {
+    border: 3px solid #E6E6E6 !important;
+}
+
+#Image_btnUpload_Container {
+    margin-right: 10px;
+}
+
+.displayImg {
+    height: 100%;
+    width: 470px;
+    overflow: hidden;
+}
+
+.table {
+    height: 100%;
+}
+
+#Document_btnUpload_Container {
+    float: left;
+}
+
+#DocumentManager {
+    height: 90px;
+}
+
+    #DocumentManager #Video_btnUpload_Container {
+        height: 100%;
+    }
+
+    #DocumentManager img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #DocumentManager article img {
+        max-width: 88px;
+    }
+
+.upload-btn {
+    border: 3px solid #E6E6E6 !important;
+}

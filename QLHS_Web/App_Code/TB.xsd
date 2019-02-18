@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TB" targetNamespace="http://tempuri.org/TB.xsd" xmlns:mstns="http://tempuri.org/TB.xsd" xmlns="http://tempuri.org/TB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="TB" msprop:Generator_UserDSName="TB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TB_Bao_Tri" msprop:Generator_TableClassName="TB_Bao_TriDataTable" msprop:Generator_TableVarName="tableTB_Bao_Tri" msprop:Generator_TablePropName="TB_Bao_Tri" msprop:Generator_RowDeletingName="TB_Bao_TriRowDeleting" msprop:Generator_UserTableName="TB_Bao_Tri" msprop:Generator_RowChangingName="TB_Bao_TriRowChanging" msprop:Generator_RowEvHandlerName="TB_Bao_TriRowChangeEventHandler" msprop:Generator_RowDeletedName="TB_Bao_TriRowDeleted" msprop:Generator_RowEvArgName="TB_Bao_TriRowChangeEvent" msprop:Generator_RowChangedName="TB_Bao_TriRowChanged" msprop:Generator_RowClassName="TB_Bao_TriRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Loai_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnLoai_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Loai_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Loai_Bao_TriColumn" msprop:Generator_UserColumnName="Loai_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Thiet_Bi" msprop:Generator_ColumnVarNameInTable="columnTen_Thiet_Bi" msprop:Generator_ColumnPropNameInRow="Ten_Thiet_Bi" msprop:Generator_ColumnPropNameInTable="Ten_Thiet_BiColumn" msprop:Generator_UserColumnName="Ten_Thiet_Bi" type="xs:string" minOccurs="0" />
+              <xs:element name="Don_Vi_Su_Dung" msprop:Generator_ColumnVarNameInTable="columnDon_Vi_Su_Dung" msprop:Generator_ColumnPropNameInRow="Don_Vi_Su_Dung" msprop:Generator_ColumnPropNameInTable="Don_Vi_Su_DungColumn" msprop:Generator_UserColumnName="Don_Vi_Su_Dung" type="xs:string" minOccurs="0" />
+              <xs:element name="Don_Vi_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnDon_Vi_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Don_Vi_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Don_Vi_Bao_TriColumn" msprop:Generator_UserColumnName="Don_Vi_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Thoi_Gian_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnThoi_Gian_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Thoi_Gian_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Thoi_Gian_Bao_TriColumn" msprop:Generator_UserColumnName="Thoi_Gian_Bao_Tri" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Thoi_Gian_Lan_Tiep_Theo" msprop:Generator_ColumnVarNameInTable="columnThoi_Gian_Lan_Tiep_Theo" msprop:Generator_ColumnPropNameInRow="Thoi_Gian_Lan_Tiep_Theo" msprop:Generator_ColumnPropNameInTable="Thoi_Gian_Lan_Tiep_TheoColumn" msprop:Generator_UserColumnName="Thoi_Gian_Lan_Tiep_Theo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Tinh_Trang_Truoc_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnTinh_Trang_Truoc_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Tinh_Trang_Truoc_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Tinh_Trang_Truoc_Bao_TriColumn" msprop:Generator_UserColumnName="Tinh_Trang_Truoc_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Tinh_Trang_Sau_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnTinh_Trang_Sau_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Tinh_Trang_Sau_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Tinh_Trang_Sau_Bao_TriColumn" msprop:Generator_UserColumnName="Tinh_Trang_Sau_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Nguoi_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnNguoi_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Nguoi_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Nguoi_Bao_TriColumn" msprop:Generator_UserColumnName="Nguoi_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Thoi_Gian_Bat_Dau" msprop:Generator_ColumnVarNameInTable="columnThoi_Gian_Bat_Dau" msprop:Generator_ColumnPropNameInRow="Thoi_Gian_Bat_Dau" msprop:Generator_ColumnPropNameInTable="Thoi_Gian_Bat_DauColumn" msprop:Generator_UserColumnName="Thoi_Gian_Bat_Dau" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Thoi_Gian_Du_Kien_Xong" msprop:Generator_ColumnVarNameInTable="columnThoi_Gian_Du_Kien_Xong" msprop:Generator_ColumnPropNameInRow="Thoi_Gian_Du_Kien_Xong" msprop:Generator_ColumnPropNameInTable="Thoi_Gian_Du_Kien_XongColumn" msprop:Generator_UserColumnName="Thoi_Gian_Du_Kien_Xong" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Thoi_Gian_Bao_Tri_Xong" msprop:Generator_ColumnVarNameInTable="columnThoi_Gian_Bao_Tri_Xong" msprop:Generator_ColumnPropNameInRow="Thoi_Gian_Bao_Tri_Xong" msprop:Generator_ColumnPropNameInTable="Thoi_Gian_Bao_Tri_XongColumn" msprop:Generator_UserColumnName="Thoi_Gian_Bao_Tri_Xong" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Da_Nghiem_Thu" msprop:Generator_ColumnVarNameInTable="columnDa_Nghiem_Thu" msprop:Generator_ColumnPropNameInRow="Da_Nghiem_Thu" msprop:Generator_ColumnPropNameInTable="Da_Nghiem_ThuColumn" msprop:Generator_UserColumnName="Da_Nghiem_Thu" type="xs:string" minOccurs="0" />
+              <xs:element name="Nguyen_Nhan_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnNguyen_Nhan_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Nguyen_Nhan_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Nguyen_Nhan_Bao_TriColumn" msprop:Generator_UserColumnName="Nguyen_Nhan_Bao_Tri" type="xs:string" minOccurs="0" />
+              <xs:element name="Chi_Phi_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnChi_Phi_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Chi_Phi_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Chi_Phi_Bao_TriColumn" msprop:Generator_UserColumnName="Chi_Phi_Bao_Tri" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ma_Bao_Tri" msprop:Generator_ColumnVarNameInTable="columnMa_Bao_Tri" msprop:Generator_ColumnPropNameInRow="Ma_Bao_Tri" msprop:Generator_ColumnPropNameInTable="Ma_Bao_TriColumn" msprop:Generator_UserColumnName="Ma_Bao_Tri" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TB_Phieu_Xuat_Nhap_DS_Phu_Tung" msprop:Generator_TableClassName="TB_Phieu_Xuat_Nhap_DS_Phu_TungDataTable" msprop:Generator_TableVarName="tableTB_Phieu_Xuat_Nhap_DS_Phu_Tung" msprop:Generator_TablePropName="TB_Phieu_Xuat_Nhap_DS_Phu_Tung" msprop:Generator_RowDeletingName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowDeleting" msprop:Generator_UserTableName="TB_Phieu_Xuat_Nhap_DS_Phu_Tung" msprop:Generator_RowChangingName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowChanging" msprop:Generator_RowEvHandlerName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowChangeEventHandler" msprop:Generator_RowDeletedName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowDeleted" msprop:Generator_RowEvArgName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowChangeEvent" msprop:Generator_RowChangedName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRowChanged" msprop:Generator_RowClassName="TB_Phieu_Xuat_Nhap_DS_Phu_TungRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ten_Phu_Tung" msprop:Generator_ColumnVarNameInTable="columnTen_Phu_Tung" msprop:Generator_ColumnPropNameInRow="Ten_Phu_Tung" msprop:Generator_ColumnPropNameInTable="Ten_Phu_TungColumn" msprop:Generator_UserColumnName="Ten_Phu_Tung" type="xs:string" minOccurs="0" />
+              <xs:element name="So_Luong" msprop:Generator_ColumnVarNameInTable="columnSo_Luong" msprop:Generator_ColumnPropNameInRow="So_Luong" msprop:Generator_ColumnPropNameInTable="So_LuongColumn" msprop:Generator_UserColumnName="So_Luong" type="xs:int" minOccurs="0" />
+              <xs:element name="Don_Gia" msprop:Generator_ColumnVarNameInTable="columnDon_Gia" msprop:Generator_ColumnPropNameInRow="Don_Gia" msprop:Generator_ColumnPropNameInTable="Don_GiaColumn" msprop:Generator_UserColumnName="Don_Gia" type="xs:int" minOccurs="0" />
+              <xs:element name="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnPropNameInTable="STTColumn" msprop:Generator_UserColumnName="STT" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TB_Bao_Tri" />
+      <xs:field xpath="mstns:Ma_Bao_Tri" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

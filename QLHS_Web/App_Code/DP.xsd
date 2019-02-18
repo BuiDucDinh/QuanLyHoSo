@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DP" targetNamespace="http://tempuri.org/DP.xsd" xmlns:mstns="http://tempuri.org/DP.xsd" xmlns="http://tempuri.org/DP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DP" msprop:Generator_UserDSName="DP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DP_TH_Su_Dung_Dac_Biet" msprop:Generator_TableClassName="DP_TH_Su_Dung_Dac_BietDataTable" msprop:Generator_TableVarName="tableDP_TH_Su_Dung_Dac_Biet" msprop:Generator_TablePropName="DP_TH_Su_Dung_Dac_Biet" msprop:Generator_RowDeletingName="DP_TH_Su_Dung_Dac_BietRowDeleting" msprop:Generator_UserTableName="DP_TH_Su_Dung_Dac_Biet" msprop:Generator_RowChangingName="DP_TH_Su_Dung_Dac_BietRowChanging" msprop:Generator_RowEvHandlerName="DP_TH_Su_Dung_Dac_BietRowChangeEventHandler" msprop:Generator_RowDeletedName="DP_TH_Su_Dung_Dac_BietRowDeleted" msprop:Generator_RowEvArgName="DP_TH_Su_Dung_Dac_BietRowChangeEvent" msprop:Generator_RowChangedName="DP_TH_Su_Dung_Dac_BietRowChanged" msprop:Generator_RowClassName="DP_TH_Su_Dung_Dac_BietRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Loai_Hinh" msprop:Generator_ColumnVarNameInTable="columnLoai_Hinh" msprop:Generator_ColumnPropNameInRow="Loai_Hinh" msprop:Generator_ColumnPropNameInTable="Loai_HinhColumn" msprop:Generator_UserColumnName="Loai_Hinh" type="xs:string" minOccurs="0" />
+              <xs:element name="Ma_Don_Vi" msprop:Generator_ColumnVarNameInTable="columnMa_Don_Vi" msprop:Generator_ColumnPropNameInRow="Ma_Don_Vi" msprop:Generator_ColumnPropNameInTable="Ma_Don_ViColumn" msprop:Generator_UserColumnName="Ma_Don_Vi" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Don_Vi" msprop:Generator_ColumnVarNameInTable="columnTen_Don_Vi" msprop:Generator_ColumnPropNameInRow="Ten_Don_Vi" msprop:Generator_ColumnPropNameInTable="Ten_Don_ViColumn" msprop:Generator_UserColumnName="Ten_Don_Vi" type="xs:string" minOccurs="0" />
+              <xs:element name="Ma_Thuoc" msprop:Generator_ColumnVarNameInTable="columnMa_Thuoc" msprop:Generator_ColumnPropNameInRow="Ma_Thuoc" msprop:Generator_ColumnPropNameInTable="Ma_ThuocColumn" msprop:Generator_UserColumnName="Ma_Thuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="Ten_Thuoc" msprop:Generator_ColumnVarNameInTable="columnTen_Thuoc" msprop:Generator_ColumnPropNameInRow="Ten_Thuoc" msprop:Generator_ColumnPropNameInTable="Ten_ThuocColumn" msprop:Generator_UserColumnName="Ten_Thuoc" type="xs:string" minOccurs="0" />
+              <xs:element name="Ton_Ky_Truoc" msprop:Generator_ColumnVarNameInTable="columnTon_Ky_Truoc" msprop:Generator_ColumnPropNameInRow="Ton_Ky_Truoc" msprop:Generator_ColumnPropNameInTable="Ton_Ky_TruocColumn" msprop:Generator_UserColumnName="Ton_Ky_Truoc" type="xs:string" minOccurs="0" />
+              <xs:element name="Mua_Trong_Ky" msprop:Generator_ColumnVarNameInTable="columnMua_Trong_Ky" msprop:Generator_ColumnPropNameInRow="Mua_Trong_Ky" msprop:Generator_ColumnPropNameInTable="Mua_Trong_KyColumn" msprop:Generator_UserColumnName="Mua_Trong_Ky" type="xs:string" minOccurs="0" />
+              <xs:element name="Xuat_Trong_Ky" msprop:Generator_ColumnVarNameInTable="columnXuat_Trong_Ky" msprop:Generator_ColumnPropNameInRow="Xuat_Trong_Ky" msprop:Generator_ColumnPropNameInTable="Xuat_Trong_KyColumn" msprop:Generator_UserColumnName="Xuat_Trong_Ky" type="xs:string" minOccurs="0" />
+              <xs:element name="Hu_Hao" msprop:Generator_ColumnVarNameInTable="columnHu_Hao" msprop:Generator_ColumnPropNameInRow="Hu_Hao" msprop:Generator_ColumnPropNameInTable="Hu_HaoColumn" msprop:Generator_UserColumnName="Hu_Hao" type="xs:string" minOccurs="0" />
+              <xs:element name="Ton_Cuoi_Ky" msprop:Generator_ColumnVarNameInTable="columnTon_Cuoi_Ky" msprop:Generator_ColumnPropNameInRow="Ton_Cuoi_Ky" msprop:Generator_ColumnPropNameInTable="Ton_Cuoi_KyColumn" msprop:Generator_UserColumnName="Ton_Cuoi_Ky" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

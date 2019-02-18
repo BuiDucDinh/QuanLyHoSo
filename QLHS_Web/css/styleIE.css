@@ -1,0 +1,20 @@
+* html .box_ct{width:288px; overflow:hidden;}
+* html .box_ct, * html .box_ct li, * html .box_ct li a{display:block; float:left;}
+* html ul.box_ct li{width:270px;}
+
+* html .box_chidao h2{
+	width:100%; height:22px;
+	margin-top:5px;
+	background:#06F url("../images/box_bg.png") repeat-x left top;
+}
+* html .box_chidao h2 a{float:left;}
+
+
+* html .k4 .folder:last-child
+{margin-right:0;}
+
+* html .k2 a{margin-left:1px;}
+
+* html .box_tp{
+	margin:0px;
+}

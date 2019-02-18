@@ -1,0 +1,138 @@
+﻿.pager {
+    font-size: 13px;
+    width: 720px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px; /*border-radius: 8px; 	-moz-border-radius: 8px;*/
+}
+
+    .pager div.short {
+        float: right;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+        width: 74px;
+        display: none;
+    }
+
+        .pager div.short input {
+            color: #000;
+            width: 28px;
+            height: 18px;
+            border: none;
+            margin-left: 8px;
+            float: left;
+        }
+
+    .pager ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        float: left;
+        margin-right: 4px;
+    }
+
+        .pager ul li {
+            display: inline;
+            margin-left: 2px;
+        }
+
+            .pager ul li a {
+                text-decoration: none;
+                display: inline-table;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                border-radius: 4px;
+                -moz-border-radius: 4px;
+                padding: 0 8px;
+            }
+
+    .pager span {
+        margin-left: 4px;
+        color: White;
+        float: left;
+    }
+
+    .pager .btn {
+        display: block;
+        width: 40px;
+        text-align: center;
+        float: left;
+        padding: 0;
+        margin: 0;
+        margin-left: 4px;
+        cursor: pointer;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    .pager .disabled {
+        color: #A0A0A0 !important;
+        text-shadow: 1px 1px 1px #FFFFFF;
+    }
+/*green*/ .green {
+    background-color: #4f7305;
+}
+
+    .green.normal {
+        background-color: #588500;
+        color: White;
+        border: solid 1px #5f9000;
+    }
+
+    .green.active {
+        background-color: #344C00;
+        color: #F8EB00;
+        border: solid 1px #5f9000;
+    }
+
+.pager.green .btn {
+    background-color: #588500;
+    color: White;
+    border: solid 1px #5f9000;
+}
+
+.black.normal {
+    background-color: #fff;
+    color: #0054a6;
+    border-radius: 50%;
+}
+
+.black.active {
+    background-color: #0054a6;
+    color: White;
+}
+
+.pager.black .btn {
+    background-color: #0965a6;
+    color: White;
+    border: solid 1px #0965a6;
+}
+
+.red.normal {
+    background-color: #E71C18;
+    color: White;
+    border: solid 1px #F82723;
+}
+
+.red.active {
+    background-color: #C00D09;
+    color: White;
+    border: solid 1px #A90B08;
+}
+
+.pager.red .btn {
+    background-color: #E71C18;
+    color: White;
+    border: solid 1px #F82723;
+}
